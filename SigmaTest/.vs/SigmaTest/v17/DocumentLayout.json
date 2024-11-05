@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sigma Software\\Sigma\\SigmaTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|d:\\sigma software\\sigma\\sigmatest\\businesslayer\\provider\\candidateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\provider\\candidateprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|d:\\sigma software\\sigma\\sigmatest\\datamodel\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|d:\\sigma software\\sigma\\sigmatest\\businesslayer\\interface\\icandidateinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\interface\\icandidateinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|d:\\sigma software\\sigma\\sigmatest\\datamodel\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|d:\\sigma software\\sigma\\sigmatest\\datamodel\\datamodel\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\datamodel\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|d:\\sigma software\\sigma\\sigmatest\\datamodel\\datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F1B7FC8-5DFA-4147-98B9-9826386F1AE3}|DataModel\\DataModel.csproj|solutionrelative:datamodel\\datamodel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|d:\\sigma software\\sigma\\sigmatest\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|d:\\sigma software\\sigma\\sigmatest\\businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B838A3B-7A72-4D3C-A2D5-1A84E4BFF493}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "DataModel\\DatabaseContext.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DatabaseContext.cs",
+              "RelativeToolTip": "DataModel\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:44:06.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidateProvider.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Provider\\CandidateProvider.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Provider\\CandidateProvider.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Provider\\CandidateProvider.cs",
+              "RelativeToolTip": "BusinessLayer\\Provider\\CandidateProvider.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAYwDgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:41:44.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "DataModel\\ApiResponse.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\ApiResponse.cs",
+              "RelativeToolTip": "DataModel\\ApiResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:32:43.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICandidateInformation.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Interface\\ICandidateInformation.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interface\\ICandidateInformation.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Interface\\ICandidateInformation.cs",
+              "RelativeToolTip": "BusinessLayer\\Interface\\ICandidateInformation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:32:16.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DataModel\\Candidate.cs",
+              "RelativeDocumentMoniker": "DataModel\\DataModel\\Candidate.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DataModel\\Candidate.cs",
+              "RelativeToolTip": "DataModel\\DataModel\\Candidate.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:20:56.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataModel",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DataModel.csproj",
+              "RelativeDocumentMoniker": "DataModel\\DataModel.csproj",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\DataModel\\DataModel.csproj",
+              "RelativeToolTip": "DataModel\\DataModel.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T14:19:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BusinessLayer",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-05T14:19:11.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Class1.cs",
+              "ToolTip": "D:\\Sigma Software\\Sigma\\SigmaTest\\BusinessLayer\\Class1.cs",
+              "RelativeToolTip": "BusinessLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:18:39.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
