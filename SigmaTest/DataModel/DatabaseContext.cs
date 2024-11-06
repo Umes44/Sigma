@@ -10,7 +10,7 @@ namespace DataModel
 {
     public class DatabaseContext : DbContext
     {
-        public DbSet<Candidate>Candidates { get; set;; }
+        public DbSet<Candidate>Candidates { get; set; }
         public DatabaseContext(DbContextOptions options) : base(options)
         {
         }

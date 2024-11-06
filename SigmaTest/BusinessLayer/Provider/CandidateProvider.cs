@@ -53,6 +53,7 @@ namespace BusinessLayer.Provider
                         _context.SaveChanges();
                         message = "Candidate Information has been Updated";
                     }
+                  await  trans.CommitAsync();
                     return new ApiResponse
                     {
                         Success = true,

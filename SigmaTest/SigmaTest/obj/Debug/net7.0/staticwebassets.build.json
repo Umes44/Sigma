@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yU7H14YMMk+7YUwW6pxbOZzeAHkcl1cCKXtj7hCYz5U=",
+  "Source": "Sigma",
+  "BasePath": "_content/Sigma",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
