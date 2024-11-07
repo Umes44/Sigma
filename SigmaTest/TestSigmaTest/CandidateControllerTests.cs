@@ -3,6 +3,7 @@ using DataModel;
 using DataModel.DataModel;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Moq;
 using SigmaTest.Controllers;
 using System;
@@ -15,16 +16,12 @@ namespace Sigma.Tests
 {
     public class CandidateControllerTests
     {
-        //private readonly CandidateController _controller;
-        //public CandidateControllerTests(CandidateController controller)
-        //{
-        //    _controller = controller;  
-        //}
+        
         [Fact]
         public async Task UpdateCandidate_ShouldReturnBadRequest_WhenDataIsInvalid()
         {
             // Arrange
-            var candidate = new Candidate()
+            var candidate = new CandidateVM()
             {
               FirstName="Ram",
               Email="a"
@@ -33,7 +30,10 @@ namespace Sigma.Tests
             mockMediator.Setup(m => m.Send(It.IsAny<UpdateCreateCandidateCommand>(), default))
                       .ReturnsAsync(new ApiResponse { Success = false, Message = "Update Not successful" });
 
-            var controller = new CandidateController(mockMediator.Object);
+   
+            var mock = new Mock<ILogger<CandidateController>>();
+            ILogger<CandidateController> logger = mock.Object;
+            var controller = new CandidateController(mockMediator.Object, logger);
             // Act
             var result = await controller.UpdateCreateCandidate(candidate);
 
@@ -58,8 +58,9 @@ namespace Sigma.Tests
             var mockMediator = new Mock<IMediator>();
             mockMediator.Setup(m => m.Send(It.IsAny<UpdateCreateCandidateCommand>(), default))
                       .ReturnsAsync(new ApiResponse { Success = true, Message = "Update successful", StatusCode=200 });
-
-            var controller = new CandidateController(mockMediator.Object);
+            var mock = new Mock<ILogger<CandidateController>>();
+            ILogger<CandidateController> logger = mock.Object;
+            var controller = new CandidateController(mockMediator.Object, logger);
             // Act
             var result = await controller.UpdateCreateCandidate(candidate);
 

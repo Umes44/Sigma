@@ -4,7 +4,7 @@ using DataModel.DataModel;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Microsoft.AspNetCore.RateLimiting;
 namespace SigmaTest.Controllers
 {
     [Route("api/[controller]")]
@@ -18,9 +18,10 @@ namespace SigmaTest.Controllers
                 _mediator=mediator;
             _logger=logger;
         }
-
+       
         [HttpPost("create-update-Candidate")]
-        public async Task<IActionResult> UpdateCreateCandidate([FromBody] Candidate model)
+       
+        public async Task<IActionResult> UpdateCreateCandidate([FromBody] CandidateVM model)
         {
 
             _logger.LogInformation($"{DateTime.Now}-- Candidate Information Storage Start");

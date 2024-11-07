@@ -319,3 +319,13 @@ D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\obj\Debug\net7.0\refint\Sigma.Te
 D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\obj\Debug\net7.0\Sigma.Tests.pdb
 D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\obj\Debug\net7.0\Sigma.Tests.genruntimeconfig.cache
 D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\obj\Debug\net7.0\ref\Sigma.Tests.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.AspNetCore.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+D:\Sigma Software\Sigma\SigmaTest\TestSigmaTest\bin\Debug\net7.0\Serilog.Sinks.File.dll

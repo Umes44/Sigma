@@ -16,7 +16,7 @@ namespace BusinessLayer.Provider
         {
             _context = context;
         }
-        public async Task<ApiResponse> UpdateCreateCandidate(Candidate model)
+        public async Task<ApiResponse> UpdateCreateCandidate(CandidateVM model)
         {
             var message = string.Empty;
             using (var trans = _context.Database.BeginTransaction())

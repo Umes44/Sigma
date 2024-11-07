@@ -10,6 +10,6 @@ namespace BusinessLayer.Interface
 {
     public interface ICandidateInformation
     {//Creation of Interface which handles both create and update operation for CandidateData
-        Task<ApiResponse> UpdateCreateCandidate(Candidate model);
+        Task<ApiResponse> UpdateCreateCandidate(CandidateVM model);
     }
 }

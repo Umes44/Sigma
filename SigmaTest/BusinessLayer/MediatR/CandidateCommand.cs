@@ -9,5 +9,5 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.MediatR
 {
-    public record UpdateCreateCandidateCommand(Candidate Model) : IRequest<ApiResponse>;
+    public record UpdateCreateCandidateCommand(CandidateVM Model) : IRequest<ApiResponse>;
 }
