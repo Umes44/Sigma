@@ -12,16 +12,21 @@ namespace SigmaTest.Controllers
     public class CandidateController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public CandidateController(IMediator mediator)
+        private readonly ILogger<CandidateController> _logger;
+        public CandidateController(IMediator mediator, ILogger<CandidateController> logger)
         {
                 _mediator=mediator;
+            _logger=logger;
         }
 
         [HttpPost("create-update-Candidate")]
         public async Task<IActionResult> UpdateCreateCandidate([FromBody] Candidate model)
         {
+
+            _logger.LogInformation($"{DateTime.Now}-- Candidate Information Storage Start");
             if (!ModelState.IsValid)
             {
+                _logger.LogInformation($"{DateTime.Now}-- Model State is Not Valid");
                 return BadRequest(new ApiResponse()
                 {
                     StatusCode=500,
@@ -29,8 +34,8 @@ namespace SigmaTest.Controllers
                     Message="Invalid Data"
                 });
             }
-
             var response = await _mediator.Send(new UpdateCreateCandidateCommand(model));
+            _logger.LogInformation($"{DateTime.Now}--{response.Message}");
             switch (response.StatusCode)
             {
                 case StatusCodes.Status200OK:

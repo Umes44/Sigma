@@ -4,6 +4,7 @@ using BusinessLayer.Provider;
 using DataModel;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Serilog;
 using System.Net.NetworkInformation;
 using System.Reflection;
 
@@ -22,7 +23,7 @@ builder.Services.AddScoped<ICandidateInformation,CandidateProvider>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
+builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
